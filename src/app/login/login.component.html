@@ -1,0 +1,14 @@
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <h2 class="active"> Sign In </h2>
+ 
+      <!-- Login Form -->
+      <form>
+        <input type="text" class="fadeIn second" placeholder="login" value="" [(ngModel)]="username">
+        <input type="text" class="fadeIn third" placeholder="password" value="" [(ngModel)]="password">
+        <input type="submit" class="fadeIn fourth" value="Log In" (click)="authUser()">
+      </form>
+
+    </div>
+  </div>
